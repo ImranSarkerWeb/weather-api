@@ -1,4 +1,4 @@
-const API_KEY = '6185e3cd5e50107a101c4273e4da6a12' //=> api key
+const API_KEY = 'put your api key' //=> api key
 const temperature = document.getElementById("temperature");
 const cityField = document.querySelector('.form-control')
 const cityName = document.getElementById('city-name')
