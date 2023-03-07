@@ -1,4 +1,4 @@
-const API_KEY = 'put your api key' //=> api key
+const API_KEY = 'api key herer' //=> api key
 const temperature = document.getElementById("temperature");
 const cityField = document.querySelector('.form-control')
 const cityName = document.getElementById('city-name')
@@ -15,7 +15,6 @@ const getData = async ()=>{
 
 const displayUIData = (data)=>{
     console.log(data)
-
     temperature.innerText = data.main.temp;
 }
 
